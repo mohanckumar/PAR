@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\PAIntraAppln\\PAR\\src\\Services\\Rewards\\Rewards\\Rewards.csproj",
+      "projectUniqueName": "D:\\Workspace\\PAIntraAppln\\PAr1\\PAR\\src\\Services\\Rewards\\Rewards\\Rewards.csproj",
       "projectName": "Rewards",
-      "projectPath": "D:\\Workspace\\PAIntraAppln\\PAR\\src\\Services\\Rewards\\Rewards\\Rewards.csproj",
+      "projectPath": "D:\\Workspace\\PAIntraAppln\\PAr1\\PAR\\src\\Services\\Rewards\\Rewards\\Rewards.csproj",
       "packagesPath": "C:\\Users\\Mohan.Kumar\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\PAIntraAppln\\PAR\\src\\Services\\Rewards\\Rewards\\obj\\",
+      "outputPath": "D:\\Workspace\\PAIntraAppln\\PAr1\\PAR\\src\\Services\\Rewards\\Rewards\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
