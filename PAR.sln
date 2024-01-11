@@ -3,9 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{62DC427B-A19B-4A42-A169-0CD5E0217401}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{356E24D5-05E7-487E-8BC9-067B81414BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8EE678A2-E432-4FB0-A3F4-AAD4FBCBF159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{9494B5C6-66D4-4050-9812-DA78B932957B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{A619CDA3-FEAA-47A4-80DE-F02A67EF6446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rewards", "Rewards", "{AFD200EB-C0BC-403E-A16B-A22BBAE907A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rewards", "src\Services\Rewards\Rewards\Rewards.csproj", "{B3940584-836C-4A75-B266-2802C0F7A58C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3940584-836C-4A75-B266-2802C0F7A58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3940584-836C-4A75-B266-2802C0F7A58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3940584-836C-4A75-B266-2802C0F7A58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3940584-836C-4A75-B266-2802C0F7A58C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{356E24D5-05E7-487E-8BC9-067B81414BD1} = {62DC427B-A19B-4A42-A169-0CD5E0217401}
+		{8EE678A2-E432-4FB0-A3F4-AAD4FBCBF159} = {62DC427B-A19B-4A42-A169-0CD5E0217401}
+		{9494B5C6-66D4-4050-9812-DA78B932957B} = {62DC427B-A19B-4A42-A169-0CD5E0217401}
+		{A619CDA3-FEAA-47A4-80DE-F02A67EF6446} = {62DC427B-A19B-4A42-A169-0CD5E0217401}
+		{AFD200EB-C0BC-403E-A16B-A22BBAE907A9} = {8EE678A2-E432-4FB0-A3F4-AAD4FBCBF159}
+		{B3940584-836C-4A75-B266-2802C0F7A58C} = {AFD200EB-C0BC-403E-A16B-A22BBAE907A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C15CD474-95B5-4C36-A419-3AE8CC67E1B1}
