@@ -1,0 +1,6 @@
+@Rewards_HostAddress = http://localhost:5229
+
+GET {{Rewards_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
